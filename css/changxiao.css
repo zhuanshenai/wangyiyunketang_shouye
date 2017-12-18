@@ -1,0 +1,28 @@
+#content .changxiao {
+	margin-top:60px;
+	height:500px;
+}
+#content .changxiao > .top {
+	margin-bottom:10px;
+}
+#content .changxiao > .bottom {
+	height:466px;
+}
+#content .changxiao > .bottom .middle {
+	padding-bottom:12px;
+}
+#content .changxiao > .bottom .middle ul a {
+	height:210px;
+}
+#content .changxiao > .bottom .right .bottom {
+	height:324px;
+}
+#content .changxiao > .bottom .middle ul a p {
+	font-size:18px;
+	color:#ff4000;
+}
+#content .changxiao > .bottom .middle ul a p span {
+	font-size:12px;
+	color:#bbb;
+	text-decoration:line-through;
+}

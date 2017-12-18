@@ -1,0 +1,36 @@
+body,h1,h2,h3,h4,h5,h6,p {
+	font-size:14px;
+}
+body,ul,h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6,p {
+	line-height:1;
+	font-weight:normal;
+}
+ul,ol {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+li {
+	line-height:1;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	color:#49af4f;
+}
+strong {
+	font-weight:normal;
+}
+img {
+	vertical-align:bottom;
+}
+input {
+	outline:none;
+	padding:0;
+}

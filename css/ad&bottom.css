@@ -1,0 +1,218 @@
+/* add start */
+#ad {
+	width:1205px;
+	height:130px;
+	display:flex;
+	justify-bottom:space-between;
+	margin-top:60px;
+}
+#ad a {
+	position:relative;
+	overflow:hidden;
+}
+#ad span.ad {
+	position:absolute;
+	bottom:-18px;
+	right:-24px;
+	color:#efefef;
+	background:#c0c0c0;
+	width:50px;
+	height:40px;
+	border-radius:50%;
+	font-size:10px;
+}
+#ad span.ad:after {
+	content:'广告';
+	position:absolute;
+	top:4px;
+	left:2px;
+}
+/* ad end*/
+
+/* bottom start */
+	/* hezuo start */
+#bottom {
+	height:470px;
+	margin-top:64px;
+	width:100%;
+}
+#bottom .hezuo {
+	width:100%;
+	background:#f8f8f8;
+	height:172px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#bottom .hezuo .top {
+	margin:60px 0 12px 0;
+	width:1205px;
+	display:flex;
+	align-items:flex-end;
+}
+#bottom .hezuo > .top h1 {
+	font-size:24px;
+	color:#000;
+}
+#bottom .hezuo > .top ul {
+	display:flex;
+	margin-left:14px;
+	flex-grow:2;
+}
+#bottom .hezuo > .top ul li {
+	margin-right:16px;
+}
+#bottom .hezuo > .top ul li a {
+	color:#666;
+}
+#bottom .hezuo > .top ul li a:hover {
+	color:#49af4f;
+}
+#bottom .hezuo > .top span {
+	margin-right:6px;
+	color:#666;
+}
+#bottom .hezuo > .top span:hover {
+	color:#31a030;
+}
+#bottom .hezuo > .top span:hover .icon {
+	background:#c1e6ce;
+	color:#f3faf6;
+} 
+#bottom .hezuo > .top span .icon {
+	width:12px;
+	height:12px;
+	display:inline-block;
+	background:#ccc;
+	color:#f5f5f5;
+	margin-left:4px;
+	border-radius:50%;
+	text-align:center;
+	line-height:12px;
+}
+
+#bottom .hezuo .bottom {
+	border-top:1px solid #999;
+	width:1205px;
+	height:78px;
+	display:flex;
+	align-items:center;
+	overflow:hidden;
+}
+#bottom .hezuo .bottom ul {
+	display:flex;
+}
+#bottom .hezuo .bottom ul li {
+	margin-right:22px;
+}
+#bottom .hezuo .bottom a {
+	font-size:14px;
+	color:#999;
+	white-space:nowrap;
+}
+#bottom .hezuo .bottom a:hover {
+	color:#49af4f;
+} 
+	/* hezuo end */
+
+	/* beian start */
+#bottom .beian {
+	background:#474443;
+	height:300px;
+	display:flex;
+	color:#ddd;
+	justify-content:center;
+}
+#bottom .beian > div {
+	width:1205px;
+	display:flex;
+	justify-content:space-between;
+}
+#bottom .beian .left {
+	width:425px;
+	display:flex;
+	flex-direction:column;
+}
+#bottom .beian .left img {
+	width:260px;
+	margin:50px 0 24px;
+}
+#bottom .beian .left p {
+	line-height:22px;
+	font-size:12px;
+}
+#bottom .beian .left ul {
+	margin-top:40px;
+	height:18px;
+	display:flex;
+	align-items:center;
+}
+#bottom .beian .left ul li {
+	margin-right:8px;
+}
+#bottom .beian .left ul .img {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url('../images/shareLinkUI.png') no-repeat;
+}
+#bottom .beian .left ul .weibo {
+	background-position:-35px -53px;
+}
+#bottom .beian .left ul .renren {
+	background-position:-35px -73px;
+}
+#bottom .beian .left ul .yixin {
+	background-position:-8px -73px;
+}
+#bottom .beian .left ul .weixin {
+	background-position:-8px -53px;
+}
+#bottom .beian .left span {
+	margin-top:18px;
+	font-size:10px;
+	color:#999;
+}
+
+#bottom .beian .right {
+	display:flex;
+	flex-direction:column;
+	margin-top:115px;
+}
+#bottom .beian .right ul {
+	display:flex;
+}
+#bottom .beian .right ul li {
+	margin-right:20px;
+}
+#bottom .beian .right ul li a {
+	color:#ddd;
+	font-size:12px;
+}
+#bottom .beian .right ul li a:hover {
+	text-decoration:underline;
+}
+#bottom .beian .right div {
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	margin-top:20px;
+}
+#bottom .beian .right div p {
+	margin-right:10px;
+}
+#bottom .beian .right div span.apple,
+#bottom .beian .right div span.android {
+	margin-right:10px;
+	display:inline-block;
+	width:110px;
+	height:32px;
+	background:url('../images/bottom.png') no-repeat;
+}
+#bottom .beian .right div span.android {
+	background-position:0 -42px;
+}
+#bottom .beian .right div span.apple {
+	background-position:0 0;
+}
+/* bottom end */

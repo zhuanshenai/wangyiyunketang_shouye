@@ -1,0 +1,66 @@
+#click {
+	width:1203px;
+	border:1px solid #ddd;
+	height:110px;
+	position:relative;
+	border-top:none;
+	overflow:hidden;
+}
+#click .prev,
+#click .next {
+	display:inline-block;
+	width:14px;
+	height:60px;
+	position:absolute;
+	top:25px;
+	background:#f0f0f0;
+	color:#a3a3a3;
+	line-height:60px;
+	text-align:center;
+	font-size:16px;
+	display:none;
+	cursor:pointer;
+}
+#click .prev {
+	left:0;
+}
+#click .next {
+	right:0;
+}
+#click ul {
+	height:110px;
+	display:flex;
+	align-items:center;
+	position:absolute;
+	z-index:-1;
+}
+#click ul a li {
+	width:244px;
+	height:60px;
+	border-right:1px solid #ddd;
+	display:flex;
+	align-items:center;
+}
+#click ul a li.none {
+	border:none;
+}
+#click ul a {
+	height:110px;
+	display:flex;
+	align-items:center;
+}
+#click ul a li .left {
+	margin:0 8px 0 32px;
+}
+#click ul a li .right h1 {
+	font-size:16px;
+	color:#333;
+}
+#click ul a li .right h1:hover {
+	color:#31a030;
+}
+#click ul a li .right p {
+	font-size:12px;
+	color:#999;
+	margin-top:4px;
+}

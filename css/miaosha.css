@@ -1,0 +1,82 @@
+#content .miaosha {
+	margin-top:25px;
+}
+#content .miaosha ul {
+	display:flex;
+	width:1205px;
+	height:232px;
+	justify-content:space-between;
+}
+#content .miaosha ul li a {
+	width:225px;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+#content .miaosha ul li a p {
+	color:#ff4000;
+	font-size:18px;
+	margin-bottom:16px;
+}
+#content .miaosha ul li a h6,
+#content .miaosha ul li a span,
+#content .miaosha ul li a strong {
+	color:#999;
+	font-size:12px;
+}
+#content .miaosha ul li a span {
+	text-decoration:line-through;
+	margin-left:18px;
+}
+#content .miaosha ul li a strong {
+	padding:4px 2px;
+	border:1px dotted #999;
+	margin-left:70px;
+}
+#content .miaosha ul li a div {
+	width:225px;
+	height:142px;
+	overflow:hidden;
+}
+#content .miaosha ul li a div img {
+	width:100%;
+	height:100%;
+	transition:linear 0.5s all;
+}
+#content .miaosha ul li a:hover div img {
+	transform:scale(1.2);
+}
+
+#content .miaosha ul li:first-child {
+	background:#e5410f;
+}
+#content .miaosha ul li:first-child a {
+	color:#fff002;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+#content .miaosha ul li:first-child .daojishi {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background:url('../images/miaosha/daojishi.gif') -10px;
+}
+#content .miaosha ul li:first-child a h1 {
+	font-size:22px;
+}
+#content .miaosha ul li:first-child a h2 {
+	font-size:20px;
+	color:#fff;
+}
+#content .miaosha ul li:first-child a h3 {
+	font-size:12px;
+	color:#fff;
+	margin-top:10px;
+}
+#content .miaosha ul li:first-child a h4 {
+	font-size:24px;
+	margin-top:10px;
+}

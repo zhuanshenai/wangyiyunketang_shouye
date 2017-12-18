@@ -1,0 +1,196 @@
+#content {
+	width:1205px;
+}
+#content .three {
+	margin-top:60px;
+	height:428px;
+}
+#content .three > .top {
+	height:24px;
+	display:flex;
+	align-items:flex-end;
+	margin-bottom:14px;
+}
+#content .three > .top h1 {
+	font-size:24px;
+	color:#000;
+}
+#content .three > .top ul {
+	display:flex;
+	margin-left:14px;
+	flex-grow:2;
+}
+#content .three > .top ul li {
+	margin-right:16px;
+}
+#content .three > .top ul li a {
+	color:#666;
+}
+#content .three > .top ul li a:hover {
+	color:#49af4f;
+}
+#content .three > .top span {
+	margin-right:6px;
+	color:#666;
+}
+#content .three > .top span:hover {
+	color:#31a030;
+}
+#content .three > .top span:hover .icon {
+	background:#c1e6ce;
+	color:#f3faf6;
+} 
+#content .three > .top span .icon {
+	width:12px;
+	height:12px;
+	display:inline-block;
+	background:#ccc;
+	color:#f5f5f5;
+	margin-left:4px;
+	border-radius:50%;
+	text-align:center;
+	line-height:12px;
+}
+
+#content .three > .bottom {
+	display:flex;
+	height:390px;
+	justify-content:space-between;
+}
+#content .three > .bottom > .left {
+	width:225px;
+	overflow:hidden;
+}
+#content .three > .bottom > .left img {
+	transition:linear 0.5s all;
+}
+#content .three > .bottom > .left:hover img {
+	transform:scale(1.2);
+}
+
+#content .three > .bottom .middle {
+	width:715px;
+}
+#content .three > .bottom .middle ul {
+	height:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-content:space-between;
+}
+#content .three > .bottom .middle ul a {
+	width:225px;
+	height:184px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	position:relative;
+}
+#content .three > .bottom .middle ul a div {
+	height:142px;
+	overflow:hidden;
+	position:relative;
+}
+#content .three > .bottom .middle ul a div img {
+	width:100%;
+	height:100%;
+	transition:linear 0.5s all;
+}
+#content .three > .bottom .middle ul a:hover div img {
+	transform:scale(1.2);
+}
+#content .three > .bottom .middle ul a h2 {
+	font-size:14px;
+	color:#333;
+}
+#content .three > .bottom .middle ul a:hover h2 {
+	color:#49af4f;
+}
+#content .three > .bottom .middle ul a h3 {
+	font-size:12px;
+	color:#999;
+}
+
+#content .three > .bottom .right .top {
+	height:142px;
+	display:flex;
+	align-items:center;
+}
+#content .three > .bottom .right .top ol {
+	width:206px;
+	height:100px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	margin-left:19px;
+}
+#content .three > .bottom .right .top ol a {
+	color:#fff;
+}
+#content .three > .bottom .right .top ol a:hover {
+	text-decoration:underline;
+}
+#content .three > .bottom .right .bottom {
+	height:248px;
+	overflow:hidden;
+}
+#content .three > .bottom .right .bottom img {
+	transition:linear 0.5s all;
+}
+#content .three > .bottom .right .bottom:hover img {
+	transform:scale(1.2);
+} 
+
+/* change background */
+.qimeng .bottom .right .top {
+	background:#ddb601;
+}
+.yingxiao .bottom .right .top {
+	background:#66c5f2;
+}
+.shenghuo .bottom .right .top {
+	background:#ab7fd5;
+}
+.chanpin .bottom .right .top {
+	background:#e19932;
+}
+.yuyan .bottom .right .top {
+	background:#eb7b7c;
+}
+.zhiye .bottom .right .top {
+	background:#4c93dc;
+}
+.biancheng .bottom .right .top {
+	background:#4bbc93;
+}
+.bangong .bottom .right .top {
+	background:#d486e7;
+}
+.changxiao .bottom .right .top {
+	background:#ddb601;
+}
+
+/* dujia icon */
+#content strong.icon {
+	display:inline-block;
+	width:48px;
+	height:48px;
+	background:url('../images/courseMark_sprite.png') no-repeat -65px -81px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#content span.teacher {
+	width:56px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	display:inline-block;
+	position:absolute;
+	right:0;
+	bottom:0;
+	color:#fff;
+	font-size:12px;
+	background:rgba(0,0,0,0.3);
+}
+
